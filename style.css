@@ -1,0 +1,35 @@
+/* Save this file as style.css */
+[data-testid="stAppViewContainer"] {
+    background-color: #0b0f19;
+    font-family: 'Inter', sans-serif;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #111827 !important;
+    border-right: 1px solid #1f2937;
+}
+
+h1 {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.05em;
+}
+
+h3 {
+    color: #9ca3af !important;
+    font-weight: 600 !important;
+}
+
+/* Glassmorphism card layouts for metrics and inputs */
+div[data-testid="metric-container"], .stSelectbox, .stSlider {
+    background: rgba(17, 24, 39, 0.7);
+    border: 1px solid #1f2937 !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+div[data-testid="stMetricValue"] {
+    color: #00cfb4 !important;
+    font-weight: 700 !important;
+}
